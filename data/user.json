@@ -1,0 +1,18 @@
+[
+    {
+        "id": "",
+        "username": "kunalgaur",
+        "name": "Kunal Gaur",
+        "email": "gaurkunal40@gmail.com",
+        "phone": "7303421656",
+        "password": "Kunal@17012001"
+    },
+    {
+        "id": "",
+        "username": "unknownuser",
+        "name": "anonymous",
+        "email": "emailnewuser@gmail.com",
+        "phone": "1234567890",
+        "password": "arandomnewpassword"
+    }
+]

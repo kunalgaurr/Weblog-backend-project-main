@@ -1,3 +1,5 @@
+const user = require('../model/user');
+
 exports.getBlogs = (req, res, next) => {
   res.status(200).json({ success: true, message: 'Show all blogs' });
 };

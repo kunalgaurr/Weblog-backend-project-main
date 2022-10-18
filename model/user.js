@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const { stringify } = require('querystring');
-const { boolean } = require('webidle-conversions');
+const { boolean } = require('webidl-conversions');
 
-const blogSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema({
   username: {
     type: String,
     required: true,
@@ -35,4 +35,4 @@ const blogSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('user', blogSchema);
+module.exports = mongoose.model('user', userSchema);
